@@ -6,11 +6,9 @@
     <link rel="stylesheet" href="time.css">
     <title>Countdown Timer</title>
 </head>
-<header>
-    <h1>Time Remaining For Sister To Come In Nepal :</h1>
-</header>
 <body>
     <div class="countdown">
+        <div id="time-remaining" class="time-remaining">Time Remaining for Sister to Come Home</div>
         <div id="clock" class="clock">
             <div class="time-display">
                 <span id="days" class="digit">00</span>
@@ -28,6 +26,22 @@
                 <span id="seconds" class="digit">00</span>
                 <span class="label">Seconds</span>
             </div>
+        </div>
+    </div>
+    <div class="info">
+        <div class="location">
+            <h2>Kathmandu (KTM)</h2>
+            <div id="ktm-time" class="time"></div>
+            <div id="ktm-weather" class="weather"></div>
+        </div>
+        <div class="location">
+            <h2>Sydney</h2>
+            <div id="sydney-time" class="time"></div>
+            <div id="sydney-weather" class="weather"></div>
+        </div>
+        <div class="distance">
+            <h2>Distance</h2>
+            <p id="distance"></p>
         </div>
     </div>
     <script src="time.js"></script>
